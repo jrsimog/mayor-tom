@@ -1,14 +1,11 @@
-interface Avenger {
-    nombre: string;
-    edad : number;
+class Avenger {
+    nombre:string;
+    arma:string;
+
+    constructor(nombre:string, arma:string){
+        this.nombre = nombre;
+        this.arma = arma;
+    }
 }
 
-function desplegar(vengador: Avenger){
-    console.log("Desplegando a: " + vengador.nombre);
-}
-var thor: Avenger = {
-    nombre:"Thor",
-    edad:800
-}
-
-desplegar(thor);
+let thor = new Avenger("Thor", "Mjolnir")
