@@ -1,19 +1,14 @@
-class Student {
-    fullName: string;
-    constructor(public firstName: string, public middleInitial: string, public lastName: string, public decimal: string) {
-        this.fullName = firstName + " " + middleInitial + " " + lastName + " " + decimal;
-    }
-}
-interface Person {
-    firstName: string;
-    lastName: string;
-    decimal : string;
+interface Avenger {
+    nombre: string;
+    edad : number;
 }
 
-function greeter(person: Student) {
-
-    return "Hello, " + person.firstName + " " + person.middleInitial + " " + person.lastName + " " + person.decimal;
+function desplegar(vengador: Avenger){
+    console.log("Desplegando a: " + vengador.nombre);
+}
+var thor: Avenger = {
+    nombre:"Thor",
+    edad:800
 }
 
-var user = new Student("Jhon", "M.", "5!", '01020616250000120304');
-document.body.innerHTML = greeter(user);
+desplegar(thor);
