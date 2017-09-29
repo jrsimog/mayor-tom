@@ -74,3 +74,8 @@ console.log(anyExiste);
 var arreglo = [1, 2, 3, 4, 5, 6, 7];
 var avillanos = ["Jose", "Ramon", "simo", "guerra"];
 console.log(avillanos[0].charAt(0));
+/**
+* tuplas
+*/
+var heroe = ["Dr. Strange", 100];
+heroe[1] = 22;

@@ -95,3 +95,10 @@ console.log(anyExiste);
  let avillanos:string[] = ["Jose","Ramon","simo","guerra"];
 
  console.log(avillanos[0].charAt(0));
+
+
+  /**
+ * tuplas
+ */
+let heroe:[string,number] = ["Dr. Strange", 100];
+heroe[1] = 22;
