@@ -30,3 +30,15 @@ else {
 function convertirSuperHeroe() {
     return false;
 }
+/**
+ * NUMERICOS
+ */
+var vengador = 5;
+var villanos = 7;
+var otros = 2;
+if (vengador > villanos) {
+    console.log('Estamos Salvados');
+}
+else {
+    console.log('ohh noo');
+}

@@ -33,3 +33,18 @@ if(superman){
 function convertirSuperHeroe(){
     return false;
 }
+
+/**
+ * NUMERICOS
+ */
+ 
+ let vengador:number = 5;
+ let villanos:number = 7;
+ let otros = 2;
+
+ if (vengador > villanos){
+    console.log('Estamos Salvados');
+ }else{
+    console.log('ohh noo');
+    
+ }
