@@ -63,3 +63,35 @@ function convertirSuperHeroe(){
  let conCat:string = `Los heroes son: ${Batman}, ${linterVerde}, ${volcanNegro}`;
 
  console.log(conCat);
+
+
+ /**
+ * ANY
+ */
+
+let anyVengador;
+let anyExiste;
+let anyDerrotas;
+
+
+anyVengador = "DR. Strange";
+console.log(anyVengador.charAt(0));
+
+anyVengador = 150.5555;
+console.log(anyVengador.toFixed(2));
+
+anyVengador = true;
+console.log(anyVengador);
+console.log(anyVengador);
+console.log(anyDerrotas);
+console.log(anyExiste);
+
+
+ /**
+ * Arrays
+ */
+
+ let arreglo:number[] = [1,2,3,4,5,6,7];
+ let avillanos:string[] = ["Jose","Ramon","simo","guerra"];
+
+ console.log

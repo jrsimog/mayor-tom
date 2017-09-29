@@ -53,3 +53,24 @@ console.log(linterVerde);
 console.log(volcanNegro);
 var conCat = "Los heroes son: " + Batman + ", " + linterVerde + ", " + volcanNegro;
 console.log(conCat);
+/**
+* ANY
+*/
+var anyVengador;
+var anyExiste;
+var anyDerrotas;
+anyVengador = "DR. Strange";
+console.log(anyVengador.charAt(0));
+anyVengador = 150.5555;
+console.log(anyVengador.toFixed(2));
+anyVengador = true;
+console.log(anyVengador);
+console.log(anyVengador);
+console.log(anyDerrotas);
+console.log(anyExiste);
+/**
+* Arrays
+*/
+var arreglo = [1, 2, 3, 4, 5, 6, 7];
+var avillanos = ["Jose", "Ramon", "simo", "guerra"];
+console.log;
