@@ -48,3 +48,18 @@ function convertirSuperHeroe(){
     console.log('ohh noo');
     
  }
+ /**
+ * string
+ */
+
+ let Batman:string = "Batman";
+ let linterVerde:string = "Linterna Verde";
+ let volcanNegro:string = "Volcan Negro";
+
+ console.log(Batman);
+ console.log(linterVerde);
+ console.log(volcanNegro);
+
+ let conCat:string = `Los heroes son: ${Batman}, ${linterVerde}, ${volcanNegro}`;
+
+ console.log(conCat);

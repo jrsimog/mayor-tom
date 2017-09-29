@@ -42,3 +42,14 @@ if (vengador > villanos) {
 else {
     console.log('ohh noo');
 }
+/**
+* string
+*/
+var Batman = "Batman";
+var linterVerde = "Linterna Verde";
+var volcanNegro = "Volcan Negro";
+console.log(Batman);
+console.log(linterVerde);
+console.log(volcanNegro);
+var conCat = "Los heroes son: " + Batman + ", " + linterVerde + ", " + volcanNegro;
+console.log(conCat);
