@@ -94,4 +94,4 @@ console.log(anyExiste);
  let arreglo:number[] = [1,2,3,4,5,6,7];
  let avillanos:string[] = ["Jose","Ramon","simo","guerra"];
 
- console.log
+ console.log(avillanos[0].charAt(0));
