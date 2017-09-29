@@ -1,19 +1,6 @@
-class Student {
-    fullName: string;
-    constructor(public firstName: string, public middleInitial: string, public lastName: string, public decimal: string) {
-        this.fullName = firstName + " " + middleInitial + " " + lastName + " " + decimal;
-    }
-}
-interface Person {
-    firstName: string;
-    lastName: string;
-    decimal : string;
-}
-
-function greeter(person: Student) {
-
-    return "Hello, " + person.firstName + " " + person.middleInitial + " " + person.lastName + " " + person.decimal;
-}
-
-var user = new Student("Jhon", "M.", "5!", '01020616250000120304');
-document.body.innerHTML = greeter(user);
+console.log('Hola Mundo');
+/**
+ * para inicializar el proyecto es necesario escribir el comoando [tsc - init],
+ *  el mismo crea un archivo de configuracion, una vez creado dicho archiuvo podemos ejecutar el comando [tsc *.tsc -w]
+ * que nos permite observar todos los archivos con extension .ts de nuestro proyecto inicializado 
+ */
